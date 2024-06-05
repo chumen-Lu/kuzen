@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -14,6 +14,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "ant-design-vue": "4.x",
     "vue": "^3.4.21"
   },
   "devDependencies": {
