@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-const n = 1
-const n = 22
 </script>
 
 <template>
@@ -15,6 +13,7 @@ const n = 22
   </header>
 
   <main>
+    g
     <TheWelcome />
   </main>
 </template>
