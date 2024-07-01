@@ -1,10 +1,10 @@
-import './assets/main.css'
+// import './assets/main.css'
 import { createPinia } from 'pinia'
 import { createApp } from 'vue'
 import App from './App.vue'
+
 import { createRouter, createWebHistory } from 'vue-router/auto'
 import { routes } from 'vue-router/auto-routes'
-// 导入pinia
 
 const app = createApp(App)
 
